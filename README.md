@@ -1,50 +1,15 @@
-Getting Started
-Follow these steps to run RealTimeEdify locally:
+# REAL-TIME COLLABORATIVE DOCUMENT EDITOR
+COMPANY: CODTECH IT SOLUTIONS PVT.LTD
 
-Clone the repository:
+NAME: SIVA SURIYAN P
 
-git clone https://github.com/your-username/RealTimeEdify.git
-cd RealTimeEdify
-Install dependencies for frontend:
+INTERN ID: CT04WUJ
 
-   cd src
-   cd client
-   npm i
-Install dependencies for backend:
-   cd src
-   npm i
-Set up .env variables by creating a .env file in the server directory and adding the following variables:
-For server side:
- MONGODB_URI=your_mongo_db_uri
- JWT_SECRET=your_jwt_secret
- PORT=8000
- PASSWORD=your_app_password_for_email
- EMAIL=your_gmail_email
- BACKEND_URL=your_backend_url/api/v1
- FRONTEND_URL=your_frontend_url
- PRODUCTION=false
-Replace your_mongodb_connection_string, your_jwt_secret, your_email_username, your_email_password, your_email_host, and your_email_port with your own values.
+DOMAIN: FULLSTACK WEBDEVELOPMENT
 
-Note: If you are using Gmail for sending emails, you need to enable "Less secure app access" in your Google account settings.
+BATCH DURATION: February 25th 2025 to March 25th 2025.
 
-For client side:
- VITE_APP_BACKEND_URL=your_backend_url/api/v1
- VITE_APP_SOCKET_URL=your_backend_url
-Replace your_backend_url with the URL where the backend server is running.
+MENTOR NAME: Neela Santhosh Kumar
 
-Run the frontend
-  cd src
-  cd client
-  npm run dev
-Run the backend
-  cd src
-  npm run dev
-Access the application in your browser at http://localhost:5173.
-
-Create an account and start collaborating on documents!
-
-Contributing
-Contributions are welcome! Please refer to the Contributing Guidelines for more information.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+# DESCRIPTION :
+A Real-Time Collaborative Document Editor is a full-stack web application that enables multiple users to create, edit, and collaborate on documents simultaneously. It features real-time text synchronization, allowing instant updates across all connected users using WebSockets (Socket.io) or Firebase Realtime Database. The editor includes rich-text formatting, commenting, and chat functionality, making it ideal for team collaboration. User authentication with JWT, OAuth, or Firebase Auth ensures secure access, while role-based permissions allow different levels of control, such as viewing or editing documents. A version history system tracks changes, enabling users to restore previous versions if needed. Documents are autosaved in a cloud database like MongoDB, PostgreSQL, or Firebase Firestore, ensuring accessibility from any device. For storage, services like Cloudinary, AWS S3, or Firebase Storage handle document uploads. The frontend is built with React.js or Next.js and styled with Tailwind CSS or Material UI, while the backend runs on Node.js with Express.js (or Django/Flask for Python-based development). The application is deployed on Vercel/Netlify for the frontend and Heroku/Railway for the backend, offering a seamless and scalable experience. This project provides hands-on experience in real-time collaboration, WebSocket communication, backend API development, and cloud storage integration, making it an excellent challenge for full-stack developers.
